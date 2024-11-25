@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="time"],
+input[type="date"],
+textarea,
+select {
+  @apply w-full border my-1 py-1 px-3 rounded-md;
+}
+
+button.primary {
+  @apply bg-cyan-600 p-2 mt-2 w-full text-white rounded-2xl capitalize hover:bg-cyan-700 duration-300;
+}
